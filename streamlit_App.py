@@ -30,7 +30,7 @@ Follow these simple steps to interact with the chatbot:
 
 
 # This is the first API key input; no need to repeat it in the main function.
-api_key = st.text_input("Enter your Google API Key:", type="password", key="AIzaSyCQoLcxgqw-yKwCS_7CFm8UdW4m7trwuac")
+api_key = st.text_input("Enter your Google API Key:", type="password", key="INSERT YOUR GOOGLE API KEY HERE")
 
 def get_pdf_text(pdf_docs):
     text = ""
